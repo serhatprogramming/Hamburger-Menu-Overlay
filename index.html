@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <title>Hamburger Menu Overlay</title>
+  </head>
+  <body>
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler" />
+      <!-- The reason there is one empty div inside hamburger div is because the first div will be used to draw one line of the three lines of the hamburger lines. It will be used as pseudo selectore of before and after with position 10px up and 10px down to draw the other two lines of 3lines of hamburger lines -->
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <!-- The reason there are two divs inside each other is about making animaion opening an overlay on another one -->
+        <div>
+          <div>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header id="showcase">
+      <div class="container showcase-container">
+        <h1>Welcome</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
+          dolorum natus quas reiciendis amet eos deserunt beatae placeat id
+          velit?
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </header>
+  </body>
+</html>
